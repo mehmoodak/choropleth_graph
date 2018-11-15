@@ -1,0 +1,32 @@
+body {
+  background-color: #222;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.tick {
+  color: white;
+  font-size: 12px;
+}
+
+#title {
+  fill: white;
+  transform: translate(215px, 70px);
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#description {
+  fill: white;
+  transform: translate(280px, 110px);
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px 10px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 204, 0.9);
+  display: none;
+  font-size: 14px;
+  text-align: left;
+}
